@@ -1,0 +1,91 @@
+{
+  "selection": "Seven distinct events, varying orientation and annotated face counts; selected by filename and annotation count before inference, not detection quality. Not an accuracy benchmark. WIDER labels are not required for inference.",
+  "images": [
+    {
+      "file": "01_single_portrait.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "38--Tennis/38_Tennis_Tennis_38_323.jpg",
+      "original_size_wh": [
+        1024,
+        1038
+      ],
+      "annotated_faces": 1,
+      "sha256": "362f0a13fdf4e9439da6a24d47c7a071ac34c176f0ffd9bab867d9179ac05ef0",
+      "decoded_pixels_sha256": "03dad8f4980e046666590aafa62f2d23f7dabf3007c351a001467434e650dd7c"
+    },
+    {
+      "file": "02_single_landscape.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "13--Interview/13_Interview_Interview_2_People_Visible_13_204.jpg",
+      "original_size_wh": [
+        1024,
+        608
+      ],
+      "annotated_faces": 1,
+      "sha256": "3fa8f01d52887232908ba3b77b278f1a42963b21ea74897d13ed574ef5a4ebc0",
+      "decoded_pixels_sha256": "72709f34d71336c98d3da4f1effc0153a27c078cbab8ee898fc846097be1fc74"
+    },
+    {
+      "file": "03_two_faces_portrait.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "19--Couple/19_Couple_Couple_19_1014.jpg",
+      "original_size_wh": [
+        1024,
+        1237
+      ],
+      "annotated_faces": 2,
+      "sha256": "6fc76ed4a3531fab8ae614d9959bf797daef6d42a99ab239fc3503d335a45f6d",
+      "decoded_pixels_sha256": "14001b732942cb97c8ed9fa4cccd8fa0fbd48d26c4c053cf98a3752a5f841b15"
+    },
+    {
+      "file": "04_family_group.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "20--Family_Group/20_Family_Group_Family_Group_20_100.jpg",
+      "original_size_wh": [
+        1024,
+        649
+      ],
+      "annotated_faces": 5,
+      "sha256": "1e502ba23e2a27fd488a99d81b5a26c906cde3a5fbbf95691862fc1c83ebf72b",
+      "decoded_pixels_sha256": "dbfc940c13599583b119bf5d0afb6f782d2b73d35eaf48332f306e15f3283210"
+    },
+    {
+      "file": "05_group.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "12--Group/12_Group_Group_12_Group_Group_12_10.jpg",
+      "original_size_wh": [
+        1024,
+        681
+      ],
+      "annotated_faces": 13,
+      "sha256": "b78dee495ad97da6e3aaea476b28ef9514dde031563cd72d0892001d5a77154f",
+      "decoded_pixels_sha256": "d04c935dc34d64fc05d6f9aa0dd3575fe85b25381b69576d3cb991a6fd8c280a"
+    },
+    {
+      "file": "06_handshaking.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "1--Handshaking/1_Handshaking_Handshaking_1_134.jpg",
+      "original_size_wh": [
+        1024,
+        754
+      ],
+      "annotated_faces": 2,
+      "sha256": "6d125f23321aef5f3f5d3a1bd1513546345c06435e6303e8a0d2913bd2c5e17f",
+      "decoded_pixels_sha256": "1e3ff221350f81fd33971c6f29d72b931f88a2f96e71f6ec0352bea44e8b898c"
+    },
+    {
+      "file": "07_crowd.jpg",
+      "source_dataset": "WIDER FACE validation",
+      "source_image": "0--Parade/0_Parade_Parade_0_102.jpg",
+      "original_size_wh": [
+        1024,
+        819
+      ],
+      "annotated_faces": 39,
+      "sha256": "5640c641d09628a3ec70801cf4847818f8f305ce258d8acf5bde6422a12659e4",
+      "decoded_pixels_sha256": "4d06bd2651472b625e58f3a760bce2f1b07dff669d5f273a6afc5fe29a7ed2a9"
+    }
+  ],
+  "unique_decoded_images": 7,
+  "preserve_all_user_inputs": true
+}

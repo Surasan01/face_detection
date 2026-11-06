@@ -1,0 +1,21 @@
+{
+  "precision": "FP16 weights, FP32 input/output",
+  "checkpoint_sha256": "b4b137d05e76ffc60a5c35d67921025c63368a0a24f515b6087da2227fd4988c",
+  "files": [
+    {
+      "file": "models/mtcnn/pnet.tflite",
+      "sha256": "59d0f1707e3b780788b052760ae853f42f780d1d59b7f061a136145f47cee6cb",
+      "float16_tensors": 14
+    },
+    {
+      "file": "models/mtcnn/rnet.tflite",
+      "sha256": "434ff5a9001d5d2717ebfd412a1a85dcf9b2184e776cece7b2227ddfa1ee176b",
+      "float16_tensors": 18
+    },
+    {
+      "file": "models/mtcnn/onet.tflite",
+      "sha256": "5bb26d7aebbd83c3aab2c64225a26ad6c3e58c5db5dfa48c265ea9d5794245f5",
+      "float16_tensors": 23
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "model": "retinaface_mnv1_025",
+  "image": "02_single_landscape.jpg",
+  "size_wh": [
+    1024,
+    608
+  ],
+  "input_wh": [
+    480,
+    640
+  ],
+  "coordinate_space": "EXIF-oriented original image pixels",
+  "boxes_xyxy_score": [
+    [
+      449.6118489583333,
+      137.04371744791666,
+      595.5235677083333,
+      343.51953125,
+      0.9984081387519836
+    ]
+  ],
+  "landmarks_xy": [
+    [
+      [
+        496.4820963541667,
+        227.02747395833333
+      ],
+      [
+        564.7942057291667,
+        227.0470703125
+      ],
+      [
+        535.8142903645834,
+        271.2934244791667
+      ],
+      [
+        501.0806640625,
+        297.428515625
+      ],
+      [
+        558.0723958333333,
+        297.42213541666666
+      ]
+    ]
+  ],
+  "inference_ms": 218.7974999542348,
+  "checkpoint": {
+    "name": "RetinaFace MNV1 0.25",
+    "stage": "after training",
+    "epoch": 9,
+    "checkpoint_sha256": "d6f937e309e262b457e8027f70cc19b95b23c025a5a4f3eff8c50ee20510a02e",
+    "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+    "source_checkpoint": "models/model_v3/train_v2_retinaface_mnv1_025/landmark_v1/best.pt"
+  }
+}

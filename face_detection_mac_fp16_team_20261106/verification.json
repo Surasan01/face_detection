@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "host": "Windows CPU",
+  "mac_executed": false,
+  "input_wh": [
+    480,
+    640
+  ],
+  "model_files": 5,
+  "python_files": 2,
+  "comparison_with_previous_package": [
+    {
+      "model": "mtcnn",
+      "sample": "portrait",
+      "faces": 1,
+      "parity": "passed"
+    },
+    {
+      "model": "mtcnn",
+      "sample": "landscape",
+      "faces": 5,
+      "parity": "passed"
+    },
+    {
+      "model": "mtcnn",
+      "sample": "crowd",
+      "faces": 1,
+      "parity": "passed"
+    },
+    {
+      "model": "yunet",
+      "sample": "portrait",
+      "faces": 1,
+      "parity": "passed"
+    },
+    {
+      "model": "yunet",
+      "sample": "landscape",
+      "faces": 5,
+      "parity": "passed"
+    },
+    {
+      "model": "yunet",
+      "sample": "crowd",
+      "faces": 15,
+      "parity": "passed"
+    },
+    {
+      "model": "retinaface_mnv1_025",
+      "sample": "portrait",
+      "faces": 1,
+      "parity": "passed"
+    },
+    {
+      "model": "retinaface_mnv1_025",
+      "sample": "landscape",
+      "faces": 5,
+      "parity": "passed"
+    },
+    {
+      "model": "retinaface_mnv1_025",
+      "sample": "crowd",
+      "faces": 6,
+      "parity": "passed"
+    }
+  ],
+  "notebooks": [
+    {
+      "name": "01_inference_demo.ipynb",
+      "executed_cells": 3,
+      "plot_pages": 2
+    },
+    {
+      "name": "02_mtcnn_retinaface_overlay_demo.ipynb",
+      "executed_cells": 4,
+      "plot_pages": 8
+    }
+  ],
+  "bundled_demo": {
+    "input_images": 7,
+    "output_images": 21,
+    "gallery": "outputs/demo_480x640/gallery.html",
+    "errors": 0
+  }
+}

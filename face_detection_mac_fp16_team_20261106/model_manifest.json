@@ -1,0 +1,36 @@
+{
+  "format": "TFLite FP16 weights / FP32 input and output",
+  "size_order": "width,height",
+  "sizes": [
+    [
+      480,
+      640
+    ]
+  ],
+  "models": {
+    "mtcnn": {
+      "name": "MTCNN",
+      "stage": "after training",
+      "epoch": 4,
+      "checkpoint_sha256": "b4b137d05e76ffc60a5c35d67921025c63368a0a24f515b6087da2227fd4988c",
+      "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+      "source_checkpoint": "models/model_v2/train_v1_mtcnn/throughput_003/best.pt"
+    },
+    "yunet": {
+      "name": "YuNet",
+      "stage": "after training",
+      "epoch": 12,
+      "checkpoint_sha256": "bfdaef33ff623ca95effa3b31312525114b2320e4c11c923504b51432c719c08",
+      "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+      "source_checkpoint": "models/model_v3/train_v1_yunet/landmark_v1/best.pt"
+    },
+    "retinaface_mnv1_025": {
+      "name": "RetinaFace MNV1 0.25",
+      "stage": "after training",
+      "epoch": 9,
+      "checkpoint_sha256": "d6f937e309e262b457e8027f70cc19b95b23c025a5a4f3eff8c50ee20510a02e",
+      "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+      "source_checkpoint": "models/model_v3/train_v2_retinaface_mnv1_025/landmark_v1/best.pt"
+    }
+  }
+}

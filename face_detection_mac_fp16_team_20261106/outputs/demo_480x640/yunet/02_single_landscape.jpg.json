@@ -1,0 +1,55 @@
+{
+  "model": "yunet",
+  "image": "02_single_landscape.jpg",
+  "size_wh": [
+    1024,
+    608
+  ],
+  "input_wh": [
+    480,
+    640
+  ],
+  "coordinate_space": "EXIF-oriented original image pixels",
+  "boxes_xyxy_score": [
+    [
+      450.52320963541666,
+      136.10240885416667,
+      596.6924479166667,
+      350.43678385416666,
+      0.9315279126167297
+    ]
+  ],
+  "landmarks_xy": [
+    [
+      [
+        498.73352864583336,
+        227.74518229166668
+      ],
+      [
+        566.0756510416667,
+        227.10520833333334
+      ],
+      [
+        540.4012369791667,
+        268.66595052083335
+      ],
+      [
+        501.33408203125,
+        295.8959635416667
+      ],
+      [
+        564.5432291666667,
+        294.0297526041667
+      ]
+    ]
+  ],
+  "inference_ms": 32.73340000305325,
+  "checkpoint": {
+    "name": "YuNet",
+    "stage": "after training",
+    "epoch": 12,
+    "checkpoint_sha256": "bfdaef33ff623ca95effa3b31312525114b2320e4c11c923504b51432c719c08",
+    "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+    "source_checkpoint": "models/model_v3/train_v1_yunet/landmark_v1/best.pt"
+  }
+}

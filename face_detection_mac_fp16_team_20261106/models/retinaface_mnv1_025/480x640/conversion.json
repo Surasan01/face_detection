@@ -1,0 +1,16 @@
+{
+  "precision": "FP16 weights, FP32 input/output",
+  "checkpoint_sha256": "d6f937e309e262b457e8027f70cc19b95b23c025a5a4f3eff8c50ee20510a02e",
+  "files": [
+    {
+      "file": "models/retinaface_mnv1_025/480x640/model.tflite",
+      "sha256": "b870a3ae530cb5a2f98450c9cacc79bf97a257808925c95fa46b13ea9be63104",
+      "float16_tensors": 114,
+      "output_names": [
+        "boxes",
+        "class_logits",
+        "landmarks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Apple Silicon, native arm64 Python 3.12, macOS 12+; TFLite CPU.
+tensorflow==2.16.1
+numpy==1.26.4
+pillow==10.2.0
+# TensorFlow compatibility pins matching the conversion/evaluation environment.
+keras==3.3.3
+protobuf==4.25.9
+ml-dtypes==0.3.2

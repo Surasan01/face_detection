@@ -1,0 +1,31 @@
+{
+  "precision": "FP16 weights, FP32 input/output",
+  "checkpoint_sha256": "bfdaef33ff623ca95effa3b31312525114b2320e4c11c923504b51432c719c08",
+  "files": [
+    {
+      "file": "models/yunet/480x640/model.tflite",
+      "sha256": "e634523390d1b02b54a2f7c689b79f2927b0ec591219aa3400d64a7e02ba5601",
+      "float16_tensors": 107,
+      "output_names": [
+        "cls_8",
+        "cls_16",
+        "cls_32",
+        "obj_8",
+        "obj_16",
+        "obj_32",
+        "bbox_8",
+        "bbox_16",
+        "bbox_32",
+        "kps_8",
+        "kps_16",
+        "kps_32",
+        "cls_8_logits",
+        "cls_16_logits",
+        "cls_32_logits",
+        "obj_8_logits",
+        "obj_16_logits",
+        "obj_32_logits"
+      ]
+    }
+  ]
+}

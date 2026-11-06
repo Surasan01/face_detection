@@ -1,0 +1,84 @@
+{
+  "model": "retinaface_mnv1_025",
+  "image": "06_handshaking.jpg",
+  "size_wh": [
+    1024,
+    754
+  ],
+  "input_wh": [
+    480,
+    640
+  ],
+  "coordinate_space": "EXIF-oriented original image pixels",
+  "boxes_xyxy_score": [
+    [
+      698.9329427083334,
+      59.71258665954763,
+      791.2222005208333,
+      212.79139705150055,
+      0.9981805086135864
+    ],
+    [
+      288.45885416666664,
+      76.47135220708658,
+      383.71839192708336,
+      206.23327913365353,
+      0.9953027963638306
+    ]
+  ],
+  "landmarks_xy": [
+    [
+      [
+        711.5194010416667,
+        118.41249443248716
+      ],
+      [
+        724.7087890625,
+        119.92709713684602
+      ],
+      [
+        697.9507161458333,
+        150.52242376311307
+      ],
+      [
+        715.5376953125,
+        173.57270117049177
+      ],
+      [
+        729.6358723958333,
+        174.3036841373606
+      ]
+    ],
+    [
+      [
+        344.97822265625,
+        121.2916443043998
+      ],
+      [
+        375.1458333333333,
+        127.61336934465189
+      ],
+      [
+        372.1806640625,
+        147.13502757474993
+      ],
+      [
+        337.8871744791667,
+        167.98179613497035
+      ],
+      [
+        363.88515625,
+        173.97831393233778
+      ]
+    ]
+  ],
+  "inference_ms": 135.14959998428822,
+  "checkpoint": {
+    "name": "RetinaFace MNV1 0.25",
+    "stage": "after training",
+    "epoch": 9,
+    "checkpoint_sha256": "d6f937e309e262b457e8027f70cc19b95b23c025a5a4f3eff8c50ee20510a02e",
+    "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+    "source_checkpoint": "models/model_v3/train_v2_retinaface_mnv1_025/landmark_v1/best.pt"
+  }
+}

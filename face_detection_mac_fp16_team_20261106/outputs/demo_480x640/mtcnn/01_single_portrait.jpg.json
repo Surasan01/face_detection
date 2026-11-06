@@ -1,0 +1,55 @@
+{
+  "model": "mtcnn",
+  "image": "01_single_portrait.jpg",
+  "size_wh": [
+    1024,
+    1038
+  ],
+  "input_wh": [
+    480,
+    640
+  ],
+  "coordinate_space": "EXIF-oriented original image pixels",
+  "boxes_xyxy_score": [
+    [
+      296.76402994791664,
+      104.72173956336427,
+      402.4770182291667,
+      229.31551973628802,
+      0.9999829530715942
+    ]
+  ],
+  "landmarks_xy": [
+    [
+      [
+        331.8522135416667,
+        149.0353021954609
+      ],
+      [
+        380.18772786458334,
+        141.50532158884914
+      ],
+      [
+        365.53802083333335,
+        171.0605824683971
+      ],
+      [
+        341.54381510416664,
+        200.7246647703574
+      ],
+      [
+        384.25576171875,
+        193.35108650097857
+      ]
+    ]
+  ],
+  "inference_ms": 380.6258999975398,
+  "checkpoint": {
+    "name": "MTCNN",
+    "stage": "after training",
+    "epoch": 4,
+    "checkpoint_sha256": "b4b137d05e76ffc60a5c35d67921025c63368a0a24f515b6087da2227fd4988c",
+    "selection_rule": "Lower macro mean of COFW/WFLW/300W test NME at 480x640; equal dataset weights; compare initial vs existing trained-best only",
+    "source_checkpoint": "models/model_v2/train_v1_mtcnn/throughput_003/best.pt"
+  }
+}
